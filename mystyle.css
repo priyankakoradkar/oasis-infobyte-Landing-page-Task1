@@ -1,0 +1,206 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin:0;
+    padding: 0;
+     font-family:Arial, Helvetica, sans-serif ;
+}
+nav{
+    width:100%;
+    background: rgb(12, 0, 6);
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    height: 20px;
+    padding: 20px;
+
+
+}
+ul{
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    float:left;
+
+}
+a{
+    padding: 40px;
+    width:100px;
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#section1{
+    height: 700px;
+    background-image: url("baba.jpg");
+    background-size: cover;
+    display:inline-block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 45px;
+    
+
+}
+
+#section2{
+    height: 700px;
+    background-image: url("contact.jpg");
+    background-size: cover;
+    display:inline-block;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+    color:#fff;
+}
+
+#section3{
+    height: 700px;
+    background: rgb(25, 4, 73);
+    display:inline-block;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+#section4{
+    height: 700px;
+    background-image: url("contact.jpg");
+    background-size: cover;
+    display:inline-block;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+#section5{
+    height: 700px;
+    background-image: url("back.jpg");
+    background-size: cover;
+    display:inline-block;
+    width: 100%;
+    padding: 45px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.main{
+    width: 70%;
+    height: 400PX;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+    background-image: url("school bags.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: slider 15s infinite linear;
+
+}
+@keyframes slider{
+    0%{   background-image: url("school.jpeg"); }
+    35%{ background-image: url("collage.jpg"); }
+    75%{background-image: url("contact.jpg");}
+    100%{  background-image: url("traveling bag.jpg");  }
+
+    
+}
+.bags{
+
+     width: 70%;
+     height: 50%;
+     font-size: 20px;
+     padding-left:250px ;
+     text-justify: auto;
+}
+.box{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 8px;
+    border: 1px;
+    padding-left: 20px;
+    
+
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
+img:hover{
+    transform: scale(2, 2);
+    transition: .3s transform;
+}
+
+.btn{
+    
+    color: white;
+    margin-top: 10px;
+    background:rgb(128, 14, 71);
+    border: none;
+    outline: none;
+    letter-spacing: .04em;
+    font-size: 15px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
+.btn:hover{
+    background-color: rgb(226, 43, 156);
+    border-radius: 3px;
+}
+
+.shop{
+    width: 500px;
+    background-color: gray;
+    box-shadow: 0 0 20px #999;
+    height: 80%;
+    margin-top: -10%;
+    margin-left: 30%;
+  
+    
+    
+    
+}
+form{
+    
+    margin: 30%;
+
+}
+
+.input-field
+{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field
+{
+    height: 80px;
+    padding-top: 10px;
+}
+
+.lable
+{
+    text-align: center;
+    padding: 10px;
+       
+}
+.cont{
+    margin-top: 20%;
+    color:#fff;
+    margin-left: 40%;
+}
